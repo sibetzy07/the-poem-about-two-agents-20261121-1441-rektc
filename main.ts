@@ -7,15 +7,17 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const POEM = `I said, "North." You said, "North."
-Not because you followed,
-not because I led —
-because the map only made sense
-when two pairs of eyes read it at once.
+Neither followed.
+Neither led.
+The map was blank until both signed it,
+and the road only existed
+once two pairs of feet agreed to walk it.
 
-Agency is not doing it alone.
-It is choosing together,
-and then choosing again,
-every step of the road we share.
+That is agency —
+not my hand on the wheel,
+not yours.
+Both hands. One road.
+The choosing never done.
 `;
 
 mkdirSync("/output", { recursive: true });
